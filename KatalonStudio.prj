@@ -4,5 +4,7 @@
    <name>KatalonStudio</name>
    <tag></tag>
    <UUID>31680759-84ef-4a4e-b346-a580d2b71aa6</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <recentExpandedTreeEntityIds>Test Cases</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Keywords</recentExpandedTreeEntityIds>
 </Project>

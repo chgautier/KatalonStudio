@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Host Creation" time="10" tests="3" failures="0" errors="0">
+   <testsuite name="Host Creation" tests="3" failures="0" errors="0" time="10" timestamp="2018-02-27 14:37:37" hostname="cgautier - CNTR-PC-A009.int.centreon.com" id="Test Suites/Host Creation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Host Creation\\20180227_143731"/>
+         <property name="logFiles" value="C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Host Creation\\20180227_143731\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cgautier - CNTR-PC-A009.int.centreon.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="e9b5a9ab-d3b6-4118-93f0-6ff86b03dc51"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Basic Login" classname="Test Cases/Basic Login" status="PASSED">
+         <system-out><![CDATA[2018-02-27 14:37:37 - [TEST_CASE][PASSED] - Test Cases/Basic Login: Test Cases/Basic Login
+
+2018-02-27 14:37:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-27 14:37:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-27 14:37:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://10.30.2.47' successfully
+
+2018-02-27 14:37:40 - [MESSAGE][PASSED] - Navigate to 'http://10.30.2.47' successfully
+
+2018-02-27 14:37:40 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_useralias'
+
+2018-02-27 14:37:40 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_useralias'
+
+2018-02-27 14:37:40 - [TEST_STEP][PASSED] - setText: Text 'centreon' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_password'
+
+2018-02-27 14:37:40 - [MESSAGE][PASSED] - Text 'centreon' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_password'
+
+2018-02-27 14:37:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor/input_submitLogin' is clicked on
+
+2018-02-27 14:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor/input_submitLogin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Host" classname="Test Cases/Create Host" status="PASSED">
+         <system-out><![CDATA[2018-02-27 14:37:41 - [TEST_CASE][PASSED] - Test Cases/Create Host: Test Cases/Create Host
+
+2018-02-27 14:37:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Configuration' is clicked on
+
+2018-02-27 14:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Configuration' is clicked on
+
+2018-02-27 14:37:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Hosts' is clicked on
+
+2018-02-27 14:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Hosts' is clicked on
+
+2018-02-27 14:37:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Add' is clicked on
+
+2018-02-27 14:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Add' is clicked on
+
+2018-02-27 14:37:43 - [TEST_STEP][PASSED] - setText: Text 'new' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_host_name'
+
+2018-02-27 14:37:43 - [MESSAGE][PASSED] - Text 'new' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_host_name'
+
+2018-02-27 14:37:43 - [TEST_STEP][PASSED] - setText: Text 'new_host_katalon' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_host_alias'
+
+2018-02-27 14:37:43 - [MESSAGE][PASSED] - Text 'new_host_katalon' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_host_alias'
+
+2018-02-27 14:37:43 - [TEST_STEP][PASSED] - setText: Text '127.0.0.1' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_host_address'
+
+2018-02-27 14:37:43 - [MESSAGE][PASSED] - Text '127.0.0.1' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_host_address'
+
+2018-02-27 14:37:43 - [TEST_STEP][PASSED] - setText: Text 'public' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_host_snmp_community'
+
+2018-02-27 14:37:43 - [MESSAGE][PASSED] - Text 'public' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_host_snmp_community'
+
+2018-02-27 14:37:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2c' are selected in object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/select_12c3'  using regular expression
+
+2018-02-27 14:37:43 - [MESSAGE][PASSED] - All options with value '2c' are selected in object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/select_12c3'  using regular expression
+
+2018-02-27 14:37:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Notification' is clicked on
+
+2018-02-27 14:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Notification' is clicked on
+
+2018-02-27 14:37:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Relations' is clicked on
+
+2018-02-27 14:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Relations' is clicked on
+
+2018-02-27 14:37:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Data Processing' is clicked on
+
+2018-02-27 14:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Data Processing' is clicked on
+
+2018-02-27 14:37:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Host Extended Infos' is clicked on
+
+2018-02-27 14:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Host Extended Infos' is clicked on
+
+2018-02-27 14:37:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_submitA' is clicked on
+
+2018-02-27 14:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_submitA' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Export Config" classname="Test Cases/Export Config" status="PASSED">
+         <system-out><![CDATA[2018-02-27 14:37:45 - [TEST_CASE][PASSED] - Test Cases/Export Config: Test Cases/Export Config
+
+2018-02-27 14:37:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Pollers' is clicked on
+
+2018-02-27 14:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Pollers' is clicked on
+
+2018-02-27 14:37:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_checkall' is clicked on
+
+2018-02-27 14:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_checkall' is clicked on
+
+2018-02-27 14:37:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_apply_configuration' is clicked on
+
+2018-02-27 14:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_apply_configuration' is clicked on
+
+2018-02-27 14:37:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_move' is clicked on
+
+2018-02-27 14:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_move' is clicked on
+
+2018-02-27 14:37:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_restart' is clicked on
+
+2018-02-27 14:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_restart' is clicked on
+
+2018-02-27 14:37:47 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/select_RestartReload'  using regular expression
+
+2018-02-27 14:37:47 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/select_RestartReload'  using regular expression
+
+2018-02-27 14:37:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_submit' is clicked on
+
+2018-02-27 14:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor (1)/input_submit' is clicked on
+
+2018-02-27 14:37:47 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-02-27 14:37:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-02-27 14:37:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-27 14:37:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-27 14:37:37 - [TEST_SUITE][PASSED] - Host Creation: Test Cases/Export Config]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

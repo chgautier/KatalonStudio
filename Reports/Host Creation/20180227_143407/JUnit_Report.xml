@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Host Creation" time="4" tests="1" failures="2" errors="0">
+   <testsuite name="Host Creation" tests="1" failures="2" errors="0" time="4" timestamp="2018-02-27 14:34:12" hostname="cgautier - CNTR-PC-A009.int.centreon.com" id="Test Suites/Host Creation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Host Creation\\20180227_143407"/>
+         <property name="logFiles" value="C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Host Creation\\20180227_143407\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cgautier - CNTR-PC-A009.int.centreon.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="70bdb92b-1470-40bc-a0ec-90f274bb96da"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Basic Login" classname="Test Cases/Basic Login" status="PASSED">
+         <system-out><![CDATA[2018-02-27 14:34:13 - [TEST_CASE][PASSED] - Test Cases/Basic Login: Test Cases/Basic Login
+
+2018-02-27 14:34:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-27 14:34:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-27 14:34:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://10.30.2.47' successfully
+
+2018-02-27 14:34:16 - [MESSAGE][PASSED] - Navigate to 'http://10.30.2.47' successfully
+
+2018-02-27 14:34:16 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_useralias'
+
+2018-02-27 14:34:16 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_useralias'
+
+2018-02-27 14:34:16 - [TEST_STEP][PASSED] - setText: Text 'centreon' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_password'
+
+2018-02-27 14:34:16 - [MESSAGE][PASSED] - Text 'centreon' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_password'
+
+2018-02-27 14:34:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor/input_submitLogin' is clicked on
+
+2018-02-27 14:34:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor/input_submitLogin' is clicked on
+
+2018-02-27 14:34:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-27 14:34:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Export Config" classname="Test Cases/Export Config" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Pollers' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-02-27 14:34:17 - [TEST_CASE][FAILED] - Test Cases/Export Config: Test Cases/Export Config FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Pollers' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-27 14:34:17 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Pollers' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-27 14:34:17 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-02-27 14:34:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Pollers' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-02-27 14:34:17 - [TEST_CASE][FAILED] - Test Cases/Export Config: Test Cases/Export Config FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Pollers' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Host" classname="Test Cases/Create Host" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Configuration' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-02-27 14:34:17 - [TEST_CASE][FAILED] - Test Cases/Create Host: Test Cases/Create Host FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Configuration' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-27 14:34:17 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Configuration' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-02-27 14:34:17 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-02-27 14:34:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Configuration' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-02-27 14:34:17 - [TEST_CASE][FAILED] - Test Cases/Create Host: Test Cases/Create Host FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Configuration' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-27 14:34:12 - [TEST_SUITE][FAILED] - Host Creation: Test Cases/Export Config FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Pollers' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-02-27 14:34:12 - [TEST_SUITE][FAILED] - Host Creation: Test Cases/Export Config FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor (1)/a_Pollers' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>
