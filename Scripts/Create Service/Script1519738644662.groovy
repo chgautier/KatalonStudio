@@ -18,4 +18,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://10.30.2.47/centreon/main.php')
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (2)/a_Configuration'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (2)/a_Services'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (2)/a_Add'))
+
+WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor (2)/input_service_description'), 'new')
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (2)/div_Centreon-Server'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (2)/span_Template'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (2)/div_generic-active-service'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (2)/span_Check Command'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (2)/div_base_host_alive'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (2)/input_submitA'))
+
+WebUI.closeBrowser()
 
