@@ -22,13 +22,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('10.30.2.47')
+WebUI.navigateToUrl('http://10.30.2.47/centreon/main.php')
 
-WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor/input_useralias'), 'admin')
+WebUI.click(findTestObject('a_Configuration (1)'))
 
-WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor/input_password'), 'centreon')
+WebUI.click(findTestObject('a_Hosts'))
 
-WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor/input_submitLogin'))
+WebUI.click(findTestObject('input_select23'))
 
-WebUI.waitForPageLoad(30)
+WebUI.selectOptionByValue(findTestObject('select_More actions...Duplicat (1)'), 'More actions...', true)
+
+WebUI.closeBrowser()
 

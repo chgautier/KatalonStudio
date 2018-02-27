@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Time Periods,Firefox 58.0,,2018-02-27 15:27:19,2018-02-27 15:27:32,"12,405s",FAILED
+,,,,,,
+Test Cases/Basic Login,Firefox 58.0,,2018-02-27 15:27:20,2018-02-27 15:27:24,"4,160s",PASSED
+openBrowser,Firefox 58.0,,2018-02-27 15:27:20,2018-02-27 15:27:23,"2,908s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-27 15:27:23,2018-02-27 15:27:23,"0,177s",PASSED
+setText,Firefox 58.0,,2018-02-27 15:27:23,2018-02-27 15:27:23,"0,093s",PASSED
+setText,Firefox 58.0,,2018-02-27 15:27:23,2018-02-27 15:27:23,"0,116s",PASSED
+click,Firefox 58.0,,2018-02-27 15:27:23,2018-02-27 15:27:24,"0,683s",PASSED
+,,,,,,
+Test Cases/Time Period Duplication,Firefox 58.0,,2018-02-27 15:27:24,2018-02-27 15:27:32,"7,827s",FAILED
+openBrowser,Firefox 58.0,,2018-02-27 15:27:24,2018-02-27 15:27:26,"2,383s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-27 15:27:26,2018-02-27 15:27:26,"0,210s",PASSED
+click,Firefox 58.0,,2018-02-27 15:27:26,2018-02-27 15:27:32,"5,105s",FAILED
+,,,,,,
+Test Cases/Time Period Deletion,Firefox 58.0,,2018-02-27 15:27:32,2018-02-27 15:27:32,"0,149s",FAILED
+openBrowser,Firefox 58.0,,2018-02-27 15:27:32,2018-02-27 15:27:32,"0,055s",FAILED

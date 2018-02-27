@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Time Periods" time="69" tests="1" failures="2" errors="0">
+   <testsuite name="Time Periods" tests="1" failures="2" errors="0" time="69" timestamp="2018-02-27 15:32:07" hostname="cgautier - CNTR-PC-A009.int.centreon.com" id="Test Suites/Time Periods">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Time Periods\\20180227_153202"/>
+         <property name="logFiles" value="C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Time Periods\\20180227_153202\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Time Periods\\20180227_153202\\1519741964725.png, C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Time Periods\\20180227_153202\\1519741997088.png"/>
+         <property name="hostName" value="cgautier - CNTR-PC-A009.int.centreon.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="e7d0d2f7-8dfb-43dd-8eeb-b3476261a79c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Basic Login" classname="Test Cases/Basic Login" status="PASSED">
+         <system-out><![CDATA[2018-02-27 15:32:08 - [TEST_CASE][PASSED] - Test Cases/Basic Login: Test Cases/Basic Login
+
+2018-02-27 15:32:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-27 15:32:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-27 15:32:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://10.30.2.47' successfully
+
+2018-02-27 15:32:11 - [MESSAGE][PASSED] - Navigate to 'http://10.30.2.47' successfully
+
+2018-02-27 15:32:11 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_useralias'
+
+2018-02-27 15:32:11 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_useralias'
+
+2018-02-27 15:32:11 - [TEST_STEP][PASSED] - setText: Text 'centreon' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_password'
+
+2018-02-27 15:32:11 - [MESSAGE][PASSED] - Text 'centreon' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_password'
+
+2018-02-27 15:32:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor/input_submitLogin' is clicked on
+
+2018-02-27 15:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor/input_submitLogin' is clicked on
+
+2018-02-27 15:32:12 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-02-27 15:32:12 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Time Period Duplication" classname="Test Cases/Time Period Duplication" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' located by 'By.xpath: //input[@name = 'select[1]' and @id = 'qf_08d283' and @type = 'checkbox']' not found)"/>
+         <system-out><![CDATA[2018-02-27 15:32:12 - [TEST_CASE][FAILED] - Test Cases/Time Period Duplication: Test Cases/Time Period Duplication FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' located by 'By.xpath: //input[@name = 'select[1]' and @id = 'qf_08d283' and @type = 'checkbox']' not found)
+
+2018-02-27 15:32:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://10.30.2.47/centreon/main.php' successfully
+
+2018-02-27 15:32:12 - [MESSAGE][PASSED] - Navigate to 'http://10.30.2.47/centreon/main.php' successfully
+
+2018-02-27 15:32:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor/a_Configuration' is clicked on
+
+2018-02-27 15:32:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor/a_Configuration' is clicked on
+
+2018-02-27 15:32:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor/a_Users' is clicked on
+
+2018-02-27 15:32:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor/a_Users' is clicked on
+
+2018-02-27 15:32:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor/a_Time Periods' is clicked on
+
+2018-02-27 15:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor/a_Time Periods' is clicked on
+
+2018-02-27 15:32:14 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' located by 'By.xpath: //input[@name = 'select[1]' and @id = 'qf_08d283' and @type = 'checkbox']' not found)
+
+2018-02-27 15:32:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' located by 'By.xpath: //input[@name = 'select[1]' and @id = 'qf_08d283' and @type = 'checkbox']' not found)
+[[ATTACHMENT|C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Time Periods\\20180227_153202\\1519741964725.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-27 15:32:12 - [TEST_CASE][FAILED] - Test Cases/Time Period Duplication: Test Cases/Time Period Duplication FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' located by 'By.xpath: //input[@name = 'select[1]' and @id = 'qf_08d283' and @type = 'checkbox']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Time Period Deletion" classname="Test Cases/Time Period Deletion" status="FAILED">
+         <failure type="FAILED" message="Unable to check object 'Object Repository/input_select6' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_select6' located by 'By.xpath: //input[@name = 'select[6]' and @id = 'qf_5b7213' and @type = 'checkbox']' not found)"/>
+         <system-out><![CDATA[2018-02-27 15:32:44 - [TEST_CASE][FAILED] - Test Cases/Time Period Deletion: Test Cases/Time Period Deletion FAILED because (of) Unable to check object 'Object Repository/input_select6' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_select6' located by 'By.xpath: //input[@name = 'select[6]' and @id = 'qf_5b7213' and @type = 'checkbox']' not found)
+
+2018-02-27 15:32:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://10.30.2.47/centreon/main.php' successfully
+
+2018-02-27 15:32:45 - [MESSAGE][PASSED] - Navigate to 'http://10.30.2.47/centreon/main.php' successfully
+
+2018-02-27 15:32:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Configuration' is clicked on
+
+2018-02-27 15:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Configuration' is clicked on
+
+2018-02-27 15:32:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Users' is clicked on
+
+2018-02-27 15:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Users' is clicked on
+
+2018-02-27 15:32:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Time Periods' is clicked on
+
+2018-02-27 15:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Time Periods' is clicked on
+
+2018-02-27 15:32:46 - [TEST_STEP][FAILED] - check: Unable to check object 'Object Repository/input_select6' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_select6' located by 'By.xpath: //input[@name = 'select[6]' and @id = 'qf_5b7213' and @type = 'checkbox']' not found)
+
+2018-02-27 15:33:17 - [MESSAGE][FAILED] - Unable to check object 'Object Repository/input_select6' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_select6' located by 'By.xpath: //input[@name = 'select[6]' and @id = 'qf_5b7213' and @type = 'checkbox']' not found)
+[[ATTACHMENT|C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Time Periods\\20180227_153202\\1519741997088.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-27 15:32:44 - [TEST_CASE][FAILED] - Test Cases/Time Period Deletion: Test Cases/Time Period Deletion FAILED because (of) Unable to check object 'Object Repository/input_select6' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/input_select6' located by 'By.xpath: //input[@name = 'select[6]' and @id = 'qf_5b7213' and @type = 'checkbox']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-27 15:32:07 - [TEST_SUITE][FAILED] - Time Periods: Test Cases/Time Period Duplication FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' located by 'By.xpath: //input[@name = 'select[1]' and @id = 'qf_08d283' and @type = 'checkbox']' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-27 15:32:07 - [TEST_SUITE][FAILED] - Time Periods: Test Cases/Time Period Duplication FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' located by 'By.xpath: //input[@name = 'select[1]' and @id = 'qf_08d283' and @type = 'checkbox']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

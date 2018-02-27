@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Time Periods" time="12" tests="1" failures="2" errors="0">
+   <testsuite name="Time Periods" tests="1" failures="2" errors="0" time="12" timestamp="2018-02-27 15:27:19" hostname="cgautier - CNTR-PC-A009.int.centreon.com" id="Test Suites/Time Periods">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Time Periods\\20180227_152714"/>
+         <property name="logFiles" value="C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Time Periods\\20180227_152714\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cgautier - CNTR-PC-A009.int.centreon.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="3cf8b0bd-59e9-4635-a173-10af5e9f08a2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Basic Login" classname="Test Cases/Basic Login" status="PASSED">
+         <system-out><![CDATA[2018-02-27 15:27:20 - [TEST_CASE][PASSED] - Test Cases/Basic Login: Test Cases/Basic Login
+
+2018-02-27 15:27:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-27 15:27:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-27 15:27:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://10.30.2.47' successfully
+
+2018-02-27 15:27:23 - [MESSAGE][PASSED] - Navigate to 'http://10.30.2.47' successfully
+
+2018-02-27 15:27:23 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_useralias'
+
+2018-02-27 15:27:23 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_useralias'
+
+2018-02-27 15:27:23 - [TEST_STEP][PASSED] - setText: Text 'centreon' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_password'
+
+2018-02-27 15:27:23 - [MESSAGE][PASSED] - Text 'centreon' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_password'
+
+2018-02-27 15:27:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor/input_submitLogin' is clicked on
+
+2018-02-27 15:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor/input_submitLogin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Time Period Duplication" classname="Test Cases/Time Period Duplication" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/a_Configuration' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10336, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3cf8b0bd-59e9-4635-a173-10af5e9f08a2
+*** Element info: {Using=xpath, value=//a[@href = '#' and (text() = 'Configuration' or . = 'Configuration')]})"/>
+         <system-out><![CDATA[2018-02-27 15:27:24 - [TEST_CASE][FAILED] - Test Cases/Time Period Duplication: Test Cases/Time Period Duplication FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/a_Configuration' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10336, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3cf8b0bd-59e9-4635-a173-10af5e9f08a2
+*** Element info: {Using=xpath, value=//a[@href = '#' and (text() = 'Configuration' or . = 'Configuration')]})
+
+2018-02-27 15:27:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-27 15:27:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-27 15:27:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-27 15:27:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://10.30.2.47/centreon/main.php' successfully
+
+2018-02-27 15:27:26 - [MESSAGE][PASSED] - Navigate to 'http://10.30.2.47/centreon/main.php' successfully
+
+2018-02-27 15:27:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/a_Configuration' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10336, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3cf8b0bd-59e9-4635-a173-10af5e9f08a2
+*** Element info: {Using=xpath, value=//a[@href = '#' and (text() = 'Configuration' or . = 'Configuration')]})
+
+2018-02-27 15:27:32 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-02-27 15:27:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/a_Configuration' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10336, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3cf8b0bd-59e9-4635-a173-10af5e9f08a2
+*** Element info: {Using=xpath, value=//a[@href = '#' and (text() = 'Configuration' or . = 'Configuration')]})]]></system-out>
+         <system-err><![CDATA[2018-02-27 15:27:24 - [TEST_CASE][FAILED] - Test Cases/Time Period Duplication: Test Cases/Time Period Duplication FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/a_Configuration' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10336, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3cf8b0bd-59e9-4635-a173-10af5e9f08a2
+*** Element info: {Using=xpath, value=//a[@href = '#' and (text() = 'Configuration' or . = 'Configuration')]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Time Period Deletion" classname="Test Cases/Time Period Deletion" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10336, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3cf8b0bd-59e9-4635-a173-10af5e9f08a2)"/>
+         <system-out><![CDATA[2018-02-27 15:27:32 - [TEST_CASE][FAILED] - Test Cases/Time Period Deletion: Test Cases/Time Period Deletion FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10336, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3cf8b0bd-59e9-4635-a173-10af5e9f08a2)
+
+2018-02-27 15:27:32 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10336, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3cf8b0bd-59e9-4635-a173-10af5e9f08a2)
+
+2018-02-27 15:27:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-27 15:27:32 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10336, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3cf8b0bd-59e9-4635-a173-10af5e9f08a2)]]></system-out>
+         <system-err><![CDATA[2018-02-27 15:27:32 - [TEST_CASE][FAILED] - Test Cases/Time Period Deletion: Test Cases/Time Period Deletion FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10336, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3cf8b0bd-59e9-4635-a173-10af5e9f08a2)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-27 15:27:19 - [TEST_SUITE][FAILED] - Time Periods: Test Cases/Time Period Duplication FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/a_Configuration' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10336, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3cf8b0bd-59e9-4635-a173-10af5e9f08a2
+*** Element info: {Using=xpath, value=//a[@href = '#' and (text() = 'Configuration' or . = 'Configuration')]})]]></system-out>
+      <system-err><![CDATA[2018-02-27 15:27:19 - [TEST_SUITE][FAILED] - Time Periods: Test Cases/Time Period Duplication FAILED because (of) Unable to click on object 'Object Repository/Page_Centreon - IT  Network Monitor/a_Configuration' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10336, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3cf8b0bd-59e9-4635-a173-10af5e9f08a2
+*** Element info: {Using=xpath, value=//a[@href = '#' and (text() = 'Configuration' or . = 'Configuration')]})]]></system-err>
+   </testsuite>
+</testsuites>
