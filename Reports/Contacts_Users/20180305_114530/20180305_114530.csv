@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Contacts_Users,Firefox 58.0,,2018-03-05 11:45:36,2018-03-05 11:46:17,"41,212s",FAILED
+,,,,,,
+Test Cases/Basic Login,Firefox 58.0,,2018-03-05 11:45:36,2018-03-05 11:45:43,"7,232s",PASSED
+openBrowser,Firefox 58.0,,2018-03-05 11:45:37,2018-03-05 11:45:40,"3,226s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-05 11:45:40,2018-03-05 11:45:41,"1,346s",PASSED
+setText,Firefox 58.0,,2018-03-05 11:45:41,2018-03-05 11:45:42,"0,278s",PASSED
+setText,Firefox 58.0,,2018-03-05 11:45:42,2018-03-05 11:45:42,"0,067s",PASSED
+click,Firefox 58.0,,2018-03-05 11:45:42,2018-03-05 11:45:43,"1,740s",PASSED
+waitForPageLoad,Firefox 58.0,,2018-03-05 11:45:43,2018-03-05 11:45:43,"0,082s",PASSED
+,,,,,,
+Test Cases/Non admin contact creation,Firefox 58.0,,2018-03-05 11:45:43,2018-03-05 11:46:17,"33,475s",FAILED
+navigateToUrl,Firefox 58.0,,2018-03-05 11:45:44,2018-03-05 11:45:44,"0,574s",PASSED
+click,Firefox 58.0,,2018-03-05 11:45:44,2018-03-05 11:45:44,"0,254s",PASSED
+click,Firefox 58.0,,2018-03-05 11:45:44,2018-03-05 11:45:45,"0,912s",PASSED
+click,Firefox 58.0,,2018-03-05 11:45:45,2018-03-05 11:45:46,"1,005s",PASSED
+setText,Firefox 58.0,,2018-03-05 11:45:46,2018-03-05 11:45:46,"0,101s",PASSED
+setText,Firefox 58.0,,2018-03-05 11:45:46,2018-03-05 11:45:46,"0,042s",PASSED
+setText,Firefox 58.0,,2018-03-05 11:45:46,2018-03-05 11:45:46,"0,040s",PASSED
+click,Firefox 58.0,,2018-03-05 11:45:46,2018-03-05 11:45:46,"0,038s",PASSED
+click,Firefox 58.0,,2018-03-05 11:45:46,2018-03-05 11:46:17,"30,369s",FAILED

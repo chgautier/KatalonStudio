@@ -20,23 +20,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('http://10.30.2.201/centreon/main.php')
+WebUI.navigateToUrl('http://10.30.2.201/centreon/main.php?p=60301&o=c&contact_id=41')
 
-WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (3)/a_Configuration'))
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (4)/a_new'))
 
-WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (3)/a_Users'))
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (4)/td_Alias  Login'))
 
-WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (3)/a_Add'))
+WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor (4)/input_contact_alias'), 'edited')
 
-WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor (3)/input_contact_alias'), 'new')
+WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor (4)/input_contact_name'), 'edited')
 
-WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor (3)/input_contact_name'), 'new')
+WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor (4)/input_contact_email'), 'edited')
 
-WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor (3)/input_contact_email'), 'new')
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (4)/input_submitC'))
 
-WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (3)/a_Centreon Authentication'))
-
-WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (3)/Page_Centreon - IT  Network Monitor/input_contact_admincontact_adm'))
-
-WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (3)/input_submitA'))
+WebUI.closeBrowser()
 

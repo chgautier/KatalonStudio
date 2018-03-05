@@ -3,11 +3,11 @@
    <description></description>
    <name>input_contact_admincontact_adm</name>
    <tag></tag>
-   <elementGuidId>a28caf27-5bff-4b63-9cb4-0ec006c0ad91</elementGuidId>
+   <elementGuidId>1098c0e5-407f-40f1-bef9-37afd2933931</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@name = 'contact_admin[contact_admin]' and @checked = 'checked' and @type = 'radio']</value>
+         <value>//input[@name = 'contact_admin[contact_admin]' and @type = 'radio' and @checked = 'checked']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,20 +34,6 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>qf_b4d642</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>checked</name>
-      <type>Main</type>
-      <value>checked</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
@@ -57,8 +43,22 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>qf_536d76</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>checked</name>
+      <type>Main</type>
+      <value>checked</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;qf_b4d642&quot;)</value>
+      <value>id(&quot;qf_536d76&quot;)</value>
    </webElementProperties>
 </WebElementEntity>
