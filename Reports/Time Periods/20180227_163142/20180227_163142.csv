@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Time Periods,Firefox 58.0,,2018-02-27 16:31:47,2018-02-27 16:31:54,"7,229s",FAILED
+,,,,,,
+Test Cases/Basic Login,Firefox 58.0,,2018-02-27 16:31:47,2018-02-27 16:31:51,"4,246s",PASSED
+openBrowser,Firefox 58.0,,2018-02-27 16:31:47,2018-02-27 16:31:50,"2,899s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-27 16:31:50,2018-02-27 16:31:50,"0,192s",PASSED
+setText,Firefox 58.0,,2018-02-27 16:31:50,2018-02-27 16:31:51,"0,118s",PASSED
+setText,Firefox 58.0,,2018-02-27 16:31:51,2018-02-27 16:31:51,"0,107s",PASSED
+click,Firefox 58.0,,2018-02-27 16:31:51,2018-02-27 16:31:51,"0,669s",PASSED
+waitForPageLoad,Firefox 58.0,,2018-02-27 16:31:51,2018-02-27 16:31:51,"0,061s",PASSED
+,,,,,,
+Test Cases/Time Period Duplication,Firefox 58.0,,2018-02-27 16:31:51,2018-02-27 16:31:54,"2,436s",PASSED
+navigateToUrl,Firefox 58.0,,2018-02-27 16:31:52,2018-02-27 16:31:52,"0,455s",PASSED
+click,Firefox 58.0,,2018-02-27 16:31:52,2018-02-27 16:31:52,"0,229s",PASSED
+click,Firefox 58.0,,2018-02-27 16:31:52,2018-02-27 16:31:53,"0,779s",PASSED
+click,Firefox 58.0,,2018-02-27 16:31:53,2018-02-27 16:31:53,"0,453s",PASSED
+click,Firefox 58.0,,2018-02-27 16:31:53,2018-02-27 16:31:54,"0,247s",PASSED
+selectOptionByValue,Firefox 58.0,,2018-02-27 16:31:54,2018-02-27 16:31:54,"0,143s",PASSED
+,,,,,,
+Test Cases/Time Period Deletion,Firefox 58.0,,2018-02-27 16:31:54,2018-02-27 16:31:54,"0,159s",FAILED
+navigateToUrl,Firefox 58.0,,2018-02-27 16:31:54,2018-02-27 16:31:54,"0,069s",FAILED

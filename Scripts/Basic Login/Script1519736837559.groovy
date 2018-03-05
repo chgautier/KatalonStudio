@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('10.30.2.47')
+WebUI.navigateToUrl('10.30.2.201')
 
 WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor/input_useralias'), 'admin')
 

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Time Periods" time="7" tests="2" failures="1" errors="0">
+   <testsuite name="Time Periods" tests="2" failures="1" errors="0" time="7" timestamp="2018-02-27 16:31:47" hostname="cgautier - CNTR-PC-A009.int.centreon.com" id="Test Suites/Time Periods">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Time Periods\\20180227_163142"/>
+         <property name="logFiles" value="C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Time Periods\\20180227_163142\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Time Periods\\20180227_163142\\1519745514491.png"/>
+         <property name="hostName" value="cgautier - CNTR-PC-A009.int.centreon.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="2c943a75-9836-471a-9348-225aca586575"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Basic Login" classname="Test Cases/Basic Login" status="PASSED">
+         <system-out><![CDATA[2018-02-27 16:31:47 - [TEST_CASE][PASSED] - Test Cases/Basic Login: Test Cases/Basic Login
+
+2018-02-27 16:31:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-27 16:31:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-27 16:31:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://10.30.2.47' successfully
+
+2018-02-27 16:31:50 - [MESSAGE][PASSED] - Navigate to 'http://10.30.2.47' successfully
+
+2018-02-27 16:31:50 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_useralias'
+
+2018-02-27 16:31:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_useralias'
+
+2018-02-27 16:31:51 - [TEST_STEP][PASSED] - setText: Text 'centreon' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_password'
+
+2018-02-27 16:31:51 - [MESSAGE][PASSED] - Text 'centreon' is set on object 'Object Repository/Page_Centreon - IT  Network Monitor/input_password'
+
+2018-02-27 16:31:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor/input_submitLogin' is clicked on
+
+2018-02-27 16:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor/input_submitLogin' is clicked on
+
+2018-02-27 16:31:51 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-02-27 16:31:51 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Time Period Duplication" classname="Test Cases/Time Period Duplication" status="PASSED">
+         <system-out><![CDATA[2018-02-27 16:31:51 - [TEST_CASE][PASSED] - Test Cases/Time Period Duplication: Test Cases/Time Period Duplication
+
+2018-02-27 16:31:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://10.30.2.47/centreon/main.php' successfully
+
+2018-02-27 16:31:52 - [MESSAGE][PASSED] - Navigate to 'http://10.30.2.47/centreon/main.php' successfully
+
+2018-02-27 16:31:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor/a_Configuration' is clicked on
+
+2018-02-27 16:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor/a_Configuration' is clicked on
+
+2018-02-27 16:31:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor/a_Users' is clicked on
+
+2018-02-27 16:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor/a_Users' is clicked on
+
+2018-02-27 16:31:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor/a_Time Periods' is clicked on
+
+2018-02-27 16:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor/a_Time Periods' is clicked on
+
+2018-02-27 16:31:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' is clicked on
+
+2018-02-27 16:31:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Centreon - IT  Network Monitor/input_select1' is clicked on
+
+2018-02-27 16:31:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'm' are selected in object 'Object Repository/Page_Centreon - IT  Network Monitor/select_More actions...Duplicat'  using regular expression
+
+2018-02-27 16:31:54 - [MESSAGE][PASSED] - All options with value 'm' are selected in object 'Object Repository/Page_Centreon - IT  Network Monitor/select_More actions...Duplicat'  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Time Period Deletion" classname="Test Cases/Time Period Deletion" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'http://10.30.2.47/centreon/main.php' (Root cause: org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8356, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2c943a75-9836-471a-9348-225aca586575)"/>
+         <system-out><![CDATA[2018-02-27 16:31:54 - [TEST_CASE][FAILED] - Test Cases/Time Period Deletion: Test Cases/Time Period Deletion FAILED because (of) Unable to navigate to 'http://10.30.2.47/centreon/main.php' (Root cause: org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8356, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2c943a75-9836-471a-9348-225aca586575)
+
+2018-02-27 16:31:54 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'http://10.30.2.47/centreon/main.php' (Root cause: org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8356, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2c943a75-9836-471a-9348-225aca586575)
+
+2018-02-27 16:31:54 - [MESSAGE][FAILED] - Unable to navigate to 'http://10.30.2.47/centreon/main.php' (Root cause: org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8356, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2c943a75-9836-471a-9348-225aca586575)
+[[ATTACHMENT|C:\\Users\\cgautier\\git\\KatalonStudio\\Reports\\Time Periods\\20180227_163142\\1519745514491.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-27 16:31:54 - [TEST_CASE][FAILED] - Test Cases/Time Period Deletion: Test Cases/Time Period Deletion FAILED because (of) Unable to navigate to 'http://10.30.2.47/centreon/main.php' (Root cause: org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8356, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2c943a75-9836-471a-9348-225aca586575)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-27 16:31:47 - [TEST_SUITE][FAILED] - Time Periods: Test Cases/Time Period Deletion FAILED because (of) Unable to navigate to 'http://10.30.2.47/centreon/main.php' (Root cause: org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8356, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2c943a75-9836-471a-9348-225aca586575)]]></system-out>
+      <system-err><![CDATA[2018-02-27 16:31:47 - [TEST_SUITE][FAILED] - Time Periods: Test Cases/Time Period Deletion FAILED because (of) Unable to navigate to 'http://10.30.2.47/centreon/main.php' (Root cause: org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'CNTR-PC-A009', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8356, moz:profile: C:\Users\cgautier\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2c943a75-9836-471a-9348-225aca586575)]]></system-err>
+   </testsuite>
+</testsuites>

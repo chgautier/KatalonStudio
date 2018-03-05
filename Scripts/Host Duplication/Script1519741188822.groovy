@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://10.30.2.47/centreon/main.php')
+WebUI.navigateToUrl('http://10.30.2.201/centreon/main.php')
 
 WebUI.click(findTestObject('a_Configuration (1)'))
 

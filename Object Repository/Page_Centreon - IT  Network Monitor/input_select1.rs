@@ -4,6 +4,12 @@
    <name>input_select1</name>
    <tag></tag>
    <elementGuidId>01e8c8fb-c81b-4e6a-94cf-15f09ada82ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'select[1]' and @type = 'checkbox']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,11 +34,12 @@
       <value>1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>qf_08d283</value>
+      <value>qf_5f65ff
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,6 +53,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;qf_08d283&quot;)</value>
+      <value>id(&quot;qf_5f65ff&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

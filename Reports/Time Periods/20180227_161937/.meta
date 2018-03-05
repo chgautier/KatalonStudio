@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180227_161937</name>
+   <tag></tag>
+   <displayName>20180227_161937</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Basic Login</testCaseId>
+      <testCaseName>Basic Login</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Time Period Duplication</testCaseId>
+      <testCaseName>Time Period Duplication</testCaseName>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Time Period Deletion</testCaseId>
+      <testCaseName>Time Period Deletion</testCaseName>
+   </reportTestCases>
+</ReportEntity>
