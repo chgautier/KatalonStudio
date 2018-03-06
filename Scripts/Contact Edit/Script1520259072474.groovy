@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('http://10.30.2.201/centreon/main.php?p=60301&o=c&contact_id=41')
+WebUI.navigateToUrl('http://10.30.2.201/centreon/main.php?p=603')
 
 WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (4)/a_new'))
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180306_115321</name>
+   <tag></tag>
+   <displayName>20180306_115321</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Basic Login</testCaseId>
+      <testCaseName>Basic Login</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Non admin contact creation</testCaseId>
+      <testCaseName>Non admin contact creation</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Contact Edit</testCaseId>
+      <testCaseName>Contact Edit</testCaseName>
+      <videoLocation>videos/test_3.avi</videoLocation>
+   </reportTestCases>
+</ReportEntity>
