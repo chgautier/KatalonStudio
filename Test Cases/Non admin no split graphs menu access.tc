@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Non admin no split graphs menu access</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6d4d3db-fe9d-4326-947f-f213fad2db8e</testCaseGuid>
+</TestCaseEntity>
