@@ -18,4 +18,35 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://10.30.2.201/centreon/main.php')
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (6)/a_Configuration'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (6)/a_Administration'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (6)/a_ACL'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (6)/a_Menus Access'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (6)/a_Add'))
+
+WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor (6)/input_acl_topo_name'), 'split graphs non admin')
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (6)/img_img_1'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (6)/img_img_1_1'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (6)/td'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (6)/input_acl_r_topos145'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (6)/img_img_1_1_0'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (6)/input_submitA'))
+
+WebUI.closeBrowser()
 

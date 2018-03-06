@@ -19,3 +19,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://10.30.2.201/centreon/main.php')
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (7)/a_Administration'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (7)/a_ACL'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (7)/a_Menus Access'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (7)/a_Add_1'))
+
+WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor (7)/input_acl_topo_name'), 'no split')
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (7)/img_img_1'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (7)/input_acl_r_topos143'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (7)/img_img_1_1'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (7)/input_acl_r_topos145'))
+
+WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (7)/input_submitA'))
+
+WebUI.closeBrowser()
+
