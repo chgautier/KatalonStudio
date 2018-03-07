@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ACL,Firefox 58.0,,2018-03-06 16:08:23,2018-03-06 16:10:08,"1m - 44,601s",FAILED
+,,,,,,
+Test Cases/Basic Login,Firefox 58.0,,2018-03-06 16:08:23,2018-03-06 16:08:28,"4,550s",PASSED
+openBrowser,Firefox 58.0,,2018-03-06 16:08:24,2018-03-06 16:08:27,"3,026s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-06 16:08:27,2018-03-06 16:08:27,"0,266s",PASSED
+setText,Firefox 58.0,,2018-03-06 16:08:27,2018-03-06 16:08:27,"0,154s",PASSED
+setText,Firefox 58.0,,2018-03-06 16:08:27,2018-03-06 16:08:27,"0,049s",PASSED
+click,Firefox 58.0,,2018-03-06 16:08:27,2018-03-06 16:08:28,"0,638s",PASSED
+waitForPageLoad,Firefox 58.0,,2018-03-06 16:08:28,2018-03-06 16:08:28,"0,076s",PASSED
+,,,,,,
+Test Cases/Access Group Create,Firefox 58.0,,2018-03-06 16:08:28,2018-03-06 16:09:01,"33,413s",FAILED
+openBrowser,Firefox 58.0,,2018-03-06 16:08:28,2018-03-06 16:08:31,"2,454s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-06 16:08:31,2018-03-06 16:08:31,"0,215s",PASSED
+click,Firefox 58.0,,2018-03-06 16:08:31,2018-03-06 16:09:01,"30,350s",FAILED
+,,,,,,
+Test Cases/Non admin no split graphs menu access,Firefox 58.0,,2018-03-06 16:09:01,2018-03-06 16:09:34,"33,103s",FAILED
+openBrowser,Firefox 58.0,,2018-03-06 16:09:02,2018-03-06 16:09:04,"2,387s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-06 16:09:04,2018-03-06 16:09:04,"0,221s",PASSED
+click,Firefox 58.0,,2018-03-06 16:09:04,2018-03-06 16:09:34,"30,364s",FAILED
+,,,,,,
+Test Cases/Non admin split graphs menu access,Firefox 58.0,,2018-03-06 16:09:34,2018-03-06 16:10:08,"33,100s",FAILED
+openBrowser,Firefox 58.0,,2018-03-06 16:09:35,2018-03-06 16:09:37,"2,380s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-06 16:09:37,2018-03-06 16:09:37,"0,200s",PASSED
+click,Firefox 58.0,,2018-03-06 16:09:37,2018-03-06 16:10:08,"30,382s",FAILED
