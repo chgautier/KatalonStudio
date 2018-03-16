@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180313_104937</name>
+   <tag></tag>
+   <displayName>20180313_104937</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Basic Login</testCaseId>
+      <testCaseName>Basic Login</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Host Creation</testCaseId>
+      <testCaseName>Host Creation</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+</ReportEntity>

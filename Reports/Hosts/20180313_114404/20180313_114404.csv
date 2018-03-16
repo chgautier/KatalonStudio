@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Hosts,Firefox 58.0,,2018-03-13 11:44:09,2018-03-13 11:44:37,"27,515s",PASSED
+,,,,,,
+Test Cases/Basic Login,Firefox 58.0,,2018-03-13 11:44:10,2018-03-13 11:44:16,"5,979s",PASSED
+openBrowser,Firefox 58.0,,2018-03-13 11:44:10,2018-03-13 11:44:13,"2,908s",PASSED
+maximizeWindow,Firefox 58.0,,2018-03-13 11:44:13,2018-03-13 11:44:13,"0,073s",PASSED
+navigateToUrl,Firefox 58.0,,2018-03-13 11:44:13,2018-03-13 11:44:13,"0,300s",PASSED
+setText,Firefox 58.0,,2018-03-13 11:44:13,2018-03-13 11:44:13,"0,130s",PASSED
+setText,Firefox 58.0,,2018-03-13 11:44:13,2018-03-13 11:44:13,"0,070s",PASSED
+click,Firefox 58.0,,2018-03-13 11:44:13,2018-03-13 11:44:16,"2,178s",PASSED
+waitForPageLoad,Firefox 58.0,,2018-03-13 11:44:16,2018-03-13 11:44:16,"0,065s",PASSED
+,,,,,,
+Test Cases/Host Creation,Firefox 58.0,,2018-03-13 11:44:16,2018-03-13 11:44:37,"21,121s",PASSED
+Statement - n = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 58.0,,2018-03-13 11:44:16,2018-03-13 11:44:16,"0,001s",PASSED
+Statement - count = 0,Firefox 58.0,,2018-03-13 11:44:16,2018-03-13 11:44:16,"0,000s",PASSED
+"Statement - For ([i = 0, i < 5, (i++)])",Firefox 58.0,,2018-03-13 11:44:16,2018-03-13 11:44:37,"20,895s",PASSED

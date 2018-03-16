@@ -18,6 +18,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+int n,count=0;
+
+
+
+for (int i = 0; i<5; i++)
+
+{
+
 
 WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (1)/a_Configuration'))
 
@@ -25,7 +33,7 @@ WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (1)/a_Hosts'))
 
 WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (1)/a_Add'))
 
-WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor (1)/input_host_name'), 'new')
+WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor (1)/input_host_name'), variable)
 
 WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor (1)/input_host_alias'), 'new_host_katalon')
 
@@ -45,3 +53,9 @@ WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (1)/a_Host Exten
 
 WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor (1)/input_submitA'))
 
+while (count<n) {
+	variable= (variable+"new"+count);
+	count++;
+}
+
+}

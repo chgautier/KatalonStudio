@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Hosts,Chrome 65.0.3325.146,,2018-03-13 11:25:33,2018-03-13 11:25:58,"24,677s",PASSED
+,,,,,,
+Test Cases/Basic Login,Chrome 65.0.3325.146,,2018-03-13 11:25:34,2018-03-13 11:25:39,"5,436s",PASSED
+openBrowser,Chrome 65.0.3325.146,,2018-03-13 11:25:34,2018-03-13 11:25:37,"2,736s",PASSED
+maximizeWindow,Chrome 65.0.3325.146,,2018-03-13 11:25:37,2018-03-13 11:25:38,"1,175s",PASSED
+navigateToUrl,Chrome 65.0.3325.146,,2018-03-13 11:25:38,2018-03-13 11:25:38,"0,314s",PASSED
+setText,Chrome 65.0.3325.146,,2018-03-13 11:25:38,2018-03-13 11:25:38,"0,134s",PASSED
+setText,Chrome 65.0.3325.146,,2018-03-13 11:25:38,2018-03-13 11:25:38,"0,097s",PASSED
+click,Chrome 65.0.3325.146,,2018-03-13 11:25:38,2018-03-13 11:25:39,"0,641s",PASSED
+waitForPageLoad,Chrome 65.0.3325.146,,2018-03-13 11:25:39,2018-03-13 11:25:39,"0,034s",PASSED
+,,,,,,
+Test Cases/Host Creation,Chrome 65.0.3325.146,,2018-03-13 11:25:39,2018-03-13 11:25:57,"18,402s",PASSED
+Statement - n = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 65.0.3325.146,,2018-03-13 11:25:39,2018-03-13 11:25:39,"0,001s",PASSED
+Statement - count = 0,Chrome 65.0.3325.146,,2018-03-13 11:25:39,2018-03-13 11:25:39,"0,000s",PASSED
+"Statement - For ([i = 0, i < 5, (i++)])",Chrome 65.0.3325.146,,2018-03-13 11:25:39,2018-03-13 11:25:57,"18,247s",PASSED
+Statement - While (count < n),Chrome 65.0.3325.146,,2018-03-13 11:25:57,2018-03-13 11:25:57,"0,000s",PASSED

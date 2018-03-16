@@ -22,9 +22,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('10.30.2.201')
 
-WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor/input_useralias'), 'admin')
+WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor/input_useralias'), GlobalVariable.G_Username)
 
 WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor/input_password'), 'centreon')
 
