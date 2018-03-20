@@ -24,11 +24,11 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('10.30.2.201')
+WebUI.navigateToUrl(GlobalVariable.G_IPcentreon)
 
 WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor/input_useralias'), GlobalVariable.G_Username)
 
-WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor/input_password'), 'centreon')
+WebUI.setText(findTestObject('Page_Centreon - IT  Network Monitor/input_password'), GlobalVariable.G_password)
 
 WebUI.click(findTestObject('Page_Centreon - IT  Network Monitor/input_submitLogin'))
 

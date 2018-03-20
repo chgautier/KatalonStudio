@@ -4,7 +4,7 @@
    <name>Hosts</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-03-13T11:44:04</lastRun>
+   <lastRun>2018-03-20T15:10:52</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -28,5 +28,11 @@
          <value></value>
          <variableId>7281456b-3d37-4d5b-a076-0456c026f384</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>405dc6a0-6c54-446b-ada8-594bf53e829c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Export Config</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

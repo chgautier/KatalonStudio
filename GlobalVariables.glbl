@@ -17,4 +17,14 @@
       <initValue>5</initValue>
       <name>n</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'centreon'</initValue>
+      <name>G_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'10.30.2.201'</initValue>
+      <name>G_IPcentreon</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
